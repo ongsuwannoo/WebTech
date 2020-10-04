@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Technology Lab.4/2</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <form class="text-center border border-light p-5">
+
+    <!-- num1 -->
+    <input type="text" class="form-control mb-4" name="num1" placeholder="Number 1" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '$1')">
+
+    <!-- num2 -->
+    <input type="text" class="form-control mb-4" name="num2" placeholder="Number 2" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '$1')">
+
+    <!-- Result -->
+    <p class="h4 mb-4">Result: <label id="result">X</label></p>
+
+    <!-- Calculate button -->
+    <button class="btn btn-info" type="button" onclick="Calculate()">Calculate</button>
+
+    <!-- Reset button -->
+    <button class="btn btn-danger" type="button" onclick="Reset()">Reset</button>
+</form>
+   <div class="container">
+    <h2>History</h2>
+    <div class="panel panel-default" id="2">
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+.table td, .table th{
+     vertical-align: middle;
+     border: 2px solid #dddddd;
+}
+.table{
+    border: 1px solid black;
+}
+.container{
+    margin-top: 10%;
+}

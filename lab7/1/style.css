@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.title {
+    padding: 20px;
+}
+
+.left {
+    padding: 20px;
+    float: left;
+    width: 33.3%;
+}
+
+.main {
+    padding: 20px;
+    float: left;
+    width: 33.3%;
+}
+
+.right {
+    padding: 20px;
+    float: left;
+    width: 33.3%;
+}
+
+@media screen and (max-width:400px) {
+
+    .left,
+    .main,
+    .right {
+        width: 100%;
+        margin-top: -30px;
+    }
+}

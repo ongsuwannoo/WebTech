@@ -1,0 +1,42 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+body{
+  background: #333;
+  color: white;
+}
+.H {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 40px;
+    -webkit-animation: slideInFromLeft 1.0s forwards;
+            animation: slideInFromLeft 1.0s forwards;
+}
+.H:nth-child(1) {animation-delay: 0.0s; }
+.H:nth-child(2) {animation-delay: 0.5s; }
+.H:nth-child(3) {animation-delay: 1.0s; }
+.H:nth-child(4) {animation-delay: 1.5s; }
+.H:nth-child(5) {animation-delay: 2.0s; }
+.H:nth-child(6) {animation-delay: 2.5s; }
+.H:nth-child(7) {animation-delay: 3.0s; }
+.H:nth-child(8) {animation-delay: 3.5s; }
+.H:nth-child(9) {animation-delay: 4.0s; }
+.H:nth-child(10) {animation-delay: 4.5s; }
+.H:nth-child(11) {animation-delay: 5.0s; }
+.H:nth-child(12) {animation-delay: 5.5s; }
+.H:nth-child(13) {animation-delay: 6.0s; }
+.H:nth-child(14) {animation-delay: 6.5s; }
+.H:nth-child(15) {animation-delay: 7.0s; }
+.H:nth-child(16) {animation-delay: 7.5s; }
+.H:nth-child(17) {animation-delay: 8.0s; }
+.H:nth-child(18) {animation-delay: 8.5s; }
+.H:nth-child(19) {animation-delay: 9.0s; }
+.H:nth-child(20) {animation-delay: 9.5s; }
+.H:nth-child(21) {animation-delay: 10.0s; }
+.H:nth-child(22) {animation-delay: 10.5s; }
+.H:nth-child(23) {animation-delay: 11.0s; }

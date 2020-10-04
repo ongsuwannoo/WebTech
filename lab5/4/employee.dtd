@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE data [
+<!ELEMENT person (title, lname, fname, job, address)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT job (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+]>

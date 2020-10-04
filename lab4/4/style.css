@@ -1,0 +1,13 @@
+body{
+    margin: 3%;
+}
+.card-group{
+    display: table-cell;
+}
+.card-body{
+    width: 70px;
+    height: 70px;
+}
+.custom-range{
+    width: 500px;
+}

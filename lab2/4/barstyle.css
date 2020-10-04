@@ -1,0 +1,30 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+table{
+    border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.container {
+  width: 80%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.J {width: 60%; background-color: #4CAF50;}
+.D {width: 90%; background-color: #2196F3;}
+.B {width: 50%; background-color: #f44336;}
+.R {width: 80%; background-color: #808080;}
+.T {width: 75%; background-color: #80F480;}

@@ -1,0 +1,22 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+body{
+  background: #333;
+  color: white;
+}
+.container {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+
+  padding: 30px;
+}
+.h4 {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 40px;
+}

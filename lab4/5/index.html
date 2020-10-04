@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web Technology Lab.4/5</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="container text-center mt-5">
+    <form>
+        <button class="btn btn-info" type="button" onclick="changeText('F+')">Font [+]</button>
+        <button class="btn btn-danger mr-2" type="button" onclick="changeText('F-')">Font [-]</button>
+        <button class="btn btn-info" type="button" onclick="changeText('C+')">Color [>]</button>
+        <button class="btn btn-danger" type="button" onclick="changeText('C-')">Color [<]</button>
+    </form>
+    <p id="pid" onclick="window.location.href = 'http://10.0.15.12/';" class="text-center">Web Technology</p>
+</body>
+</html>
